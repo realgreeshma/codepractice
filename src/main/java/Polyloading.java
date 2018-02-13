@@ -20,7 +20,7 @@ public class Polyloading {
     {
         AreaOfShape ar = new AreaOfShape();
         System.out.println("Area of Circle" + ar.area(2.2f));
-        System.out.println("Are of a Rectangle" + ar.area(4,5));
+        System.out.println("Area of a Rectangle" + ar.area(4,5));
         System.out.println("Area of Triangle" + ar.area(3,6.6));
     }
 }
