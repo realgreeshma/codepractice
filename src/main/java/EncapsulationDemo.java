@@ -28,7 +28,6 @@
  //We can maintain a log file
    //It is always better to access variable through methods
 
-
 public class EncapsulationDemo {
     public static void main(String[] args)
     {
@@ -37,9 +36,7 @@ public class EncapsulationDemo {
         owner.setCustId(3);
        // owner.getCustId();
 
-
-
-        owner.setOwnerName("Hanuman");
+       owner.setOwnerName("Hanuman");
         //owner.getOwnerName();
 
         System.out.println(owner.getCustId() + " \n "+ owner.getOwnerName());
